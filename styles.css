@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <style>
+        /* CSS Global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* CSS Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* CSS Navigation */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS Main */
+        main {
+            padding: 2rem;
+        }
+
+        /* CSS Section */
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            margin-bottom: 1rem;
+        }
+
+        /* CSS Image */
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* CSS Footer */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* CSS Custom */
+        section img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .foto {
+            width: 10%;
+            height: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Título</h2>
+            <p>Texto do exemplo.</p>
+            <img src="image.jpg" alt="Imagem do exemplo" class="foto">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Exemplo</p>
+    </footer>
+</body>
+</html>
